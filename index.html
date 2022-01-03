@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Mundo</title>
+  </head>
+  <body>
+    <h1>Título Principal</h1>
+    <h2>Subtítulo</h2>
+    <h3></h3>
+    <h4></h4>
+    <h5></h5>
+    <h6>Subtítulo muy pequeño</h6>
+
+    <p> 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    
+    <ol>
+      <li>Primero</li>
+      <li>Segundo</li>
+      <li>Tercero</li>
+    </ol>
+
+    <ul>
+      <li>Primero</li>
+      <li>Segundo</li>
+      <li>Tercero</li>
+    </ul>
+    <form>
+      <!-- los inputs son elementos del tipo línea-->
+      <div>
+        <!-- label es para que cuando le haga click al nombre me lleva al input del nombre
+        el for debe tener el mismo nombre del id-->
+        <label for="nombreUsuario">Nombre:</label>
+        <input type="text" name="nombreUsuario" id="nombreUsuario">
+      </div>
+      <br>
+      <div>
+        <label for="apellidoUsuario">Apellido:</label>
+        <input type="text" name="apellidoUsuario" id="apellidoUsuario">
+      </div>
+      <br>
+      <div>
+        <label for="passwordUsuario">Contraseña:</label>
+        <input type="password" name="passwordUsuario" id="passwordUsuario">
+      </div>
+      <br>
+      <div>
+        <!-- en Name si ponemos el mismo, por ejemplo en radio button, puedes seleccionar solo 1 opción
+          pero si Name="" tiene distintos nombres, puedes seleccionar varios 
+        -->
+        <label for="peliculaMatrix">
+          Matrix:
+        </label>
+        <input type="radio" name="peliculas" id="peliculaMatrix">
+        <label for="peliculaSpiderman">
+          Spiderman:
+        </label>
+        <input type="radio" name="peliculas" id="peliculaSpiderman">
+        <label for="peliculaThor">
+          Thor:
+        </label>
+        <input type="radio" name="peliculas" id="peliculaThor">
+      </div>
+
+      <div>
+        <label for="tomate">
+          Tomate
+        </label>
+        <input type="checkbox" name="verduras" id="tomate">
+
+        <label for="lechuga">
+          lechuga
+        </label>
+        <input type="checkbox" name="verduras" id="lechuga">
+
+        <label for="elote">
+          Elote
+        </label>
+        <input type="checkbox" name="verduras" id="elote">
+      </div>
+
+      <div>
+        <label for="pais">
+          Pais:
+        </label>
+        <select name="pais" id="pais">
+          <option value="peru">Peru</option>
+          <option value="mexico">Mexico</option>
+          <option value="ecuador">Ecuador</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="comentario"> 
+          Dejar Comentario:
+        </label>
+        <textarea name="comentario" id="comentario"></textarea>
+      </div>
+
+      <div>
+        <button type="submit">
+          Enviar
+        </button>
+      </div>
+    </form>
+
+    <img src="./imagenes/chikorita.png" alt="chikorita">
+    <img src="https://www.dexerto.es/wp-content/uploads/sites/3/2021/11/29/starters-johto.jpg" alt="pokemones">
+  </body>
+</html>
+<!-- El elemento meta es para que la página carga ciertas cosas -->
