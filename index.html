@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hola Mundo</title>
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <nav>
       <ul>
-        <li>Home</li>
-        <li>About</li>
+        <li class="navegacion">Home</li>
+        <li class="navegacion">About</li>
       </ul>
     </nav>
     <main>
@@ -27,7 +28,7 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
       
-      <ol>
+      <ol class="numeros">
         <li>Primero</li>
         <li>Segundo</li>
         <li>Tercero</li>
@@ -46,17 +47,17 @@
           <label for="nombreUsuario">Nombre:</label>
           <input type="text" name="nombreUsuario" id="nombreUsuario">
         </div>
-        <br>
+        
         <div>
           <label for="apellidoUsuario">Apellido:</label>
           <input type="text" name="apellidoUsuario" id="apellidoUsuario">
         </div>
-        <br>
+        
         <div>
           <label for="passwordUsuario">Contraseña:</label>
           <input type="password" name="passwordUsuario" id="passwordUsuario">
         </div>
-        <br>
+        
         <div>
           <!-- en Name si ponemos el mismo, por ejemplo en radio button, puedes seleccionar solo 1 opción
             pero si Name="" tiene distintos nombres, puedes seleccionar varios 
@@ -82,7 +83,7 @@
           <input type="checkbox" name="verduras" id="tomate">
 
           <label for="lechuga">
-            lechuga
+            Lechuga
           </label>
           <input type="checkbox" name="verduras" id="lechuga">
 
@@ -111,7 +112,7 @@
         </div>
 
         <div>
-          <button type="submit">
+          <button type="submit" class="botonSubmit">
             Enviar
           </button>
         </div>
